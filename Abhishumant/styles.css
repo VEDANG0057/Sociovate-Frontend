@@ -457,3 +457,134 @@ u {
     font-size: 8px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+  .collab {
+    margin-top: 10%;
+  }
+
+  .IET-logos {
+    width: 80px;
+    height: 40px;
+    margin-left: 9%;
+  }
+
+  .IXDA-logos {
+    margin-right: 9%;
+    width: 100px;
+    height: 65px;
+  }
+
+  .X-logos {
+    margin-top: 10px;
+    width: 30px;
+    height: 20px;
+  }
+
+  .sociovate {
+    margin-top: 5%;
+    width: 80%;
+    height: auto;
+  }
+
+  .first-div {
+    height: auto;
+  }
+
+  .mountains {
+    height: 550px;
+  }
+
+  .sdgimg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .text-sumn {
+    margin-top: 5%;
+    width: 90%;
+  }
+
+  .text-s {
+    font-size: 15px;
+  }
+
+  .top-bar {
+    align-items: center;
+  }
+
+  .home {
+    font-size: 14px;
+  }
+
+  .second-div {
+    height: 500px;
+    margin-top: -86px;
+    padding: auto;
+  }
+
+  .what {
+    font-size: 50px;
+  }
+
+  .desc {
+    font-size: 15px;
+    width: 400px;
+  }
+
+  .regnow {
+    height: auto;
+    font-size: 20px;
+    margin-left: -30px;
+  }
+
+  u {
+    font-size: 12px;
+  }
+
+  .third-div {
+    height: auto;
+  }
+
+  .sdgs {
+    padding: 10px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+
+  .sdgg {
+    height: 180px;
+    font-size: 12px;
+  }
+
+  .tracktitle {
+    font-size: 20px;
+  }
+
+  .fourth-div {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin-top: 0;
+  }
+
+  .aboutustitle {
+    font-size: 20px;
+  }
+
+  .containers {
+    height: 300px;
+    width: 90%;
+  }
+
+  .chapt {
+    font-size: 30px;
+  }
+
+  .fullname {
+    font-size: 16px;
+  }
+}
