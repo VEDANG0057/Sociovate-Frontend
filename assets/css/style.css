@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: antiquewhite;
   font-family: 'Orbitron', sans-serif;
@@ -74,6 +77,9 @@ body {
 .home {
   font-family: 'Orbitron', sans-serif;
   font-size: 15px;
+}
+.home a{
+  color: black;
 }
 
 .home:hover {
