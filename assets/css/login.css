@@ -12,6 +12,8 @@ body {
 .login-bg {
   width: 100vw;
   height:auto;
+  bottom: 0;
+  position: fixed;
 }
 
 .login-container {
