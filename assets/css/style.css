@@ -416,8 +416,18 @@ u {
   }
 
   .mountains {
-    height: 440px;
+    /* height: 440px; Set the desired height */
+    height: 23rem; /* Set the desired height */
+    width: auto;
+    position: absolute;
+    /* left: 50%; */
+    /* right: 50%; */
+    transform: translateX(-50%);
   }
+  
+
+  
+  
 
   .sdgimg {
     width: 70px;
