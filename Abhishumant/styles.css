@@ -283,9 +283,13 @@ u {
   margin-top: 600px;
   background-color: #28BFE5;
   margin-bottom: 0;
+  position: relative; 
 }
 
+
 .contain {
+  position: relative; 
+  z-index: 3; 
   padding: 30px;
   margin-top: 30px;
   display: grid;
@@ -326,6 +330,40 @@ u {
   font-size: 40px;
   color: white;
 }
+
+.cloud-1 {
+  z-index: 1;
+  position: absolute;
+  left: -15%;
+  top: 13%;
+}
+
+.cloud-2 {
+  z-index: 1;
+  position: absolute;
+  left: 71%;
+  top: 10%;
+}
+
+.cloud-3 {
+  z-index: 1;
+  position: absolute;
+  left: 4%;
+  top: 80%;
+}
+
+.cloud-4 {
+  z-index: 1;
+  position: absolute;
+  left: 70%;
+  top: 70%;
+}
+
+.cloud-1,.cloud-2,.cloud-3,.cloud-4{
+  width: 400px;
+  height: 130px;
+}
+
 
 @media screen and (max-width: 768px) {
   .collab {
@@ -455,6 +493,30 @@ u {
 
   .fullname {
     font-size: 8px;
+  }
+
+  .cloud-1 {
+    width: 200px;
+    height: 70px;
+  }
+
+  .cloud-2 {
+    top: 90px;
+    width: 110px;
+    height: 50px;
+  }
+
+  .cloud-3 {
+    width: 200px;
+    height: 70px;
+    left: -30%;
+  }
+
+  .cloud-4 {
+    width: 180px;
+    height: 70px;
+    left: 57%;
+    top: 80%;
   }
 }
 
@@ -586,5 +648,30 @@ u {
 
   .fullname {
     font-size: 16px;
+  }
+
+  .cloud-1 {
+    left: -9%;
+    width: 240px;
+    height: 90px;
+  }
+
+  .cloud-2 {
+    top: 90px;
+    width: 220px;
+    height: 80px;
+  }
+
+  .cloud-3 {
+    width: 220px;
+    height: 80px;
+    left: -10%;
+  }
+
+  .cloud-4 {
+    width: 170px;
+    height: 70px;
+    left: 79%;
+    top: 75%;
   }
 }
