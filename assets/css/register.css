@@ -12,6 +12,7 @@ body {
 .register-bg {
   width: 100vw;
   height:auto;
+  
 }
 
 .register-container {
@@ -88,6 +89,11 @@ button {
 @media only screen and (max-width: 768px) {
   .register-container {
     margin: 5vh 2vw;
+  }
+
+  .register-bg{
+    bottom: 0;
+    position: fixed;
   }
 
   .register-text {
