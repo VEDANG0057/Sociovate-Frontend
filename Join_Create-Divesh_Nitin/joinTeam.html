@@ -20,22 +20,44 @@
 <body>
     <header>
         <nav class="glassmorphic-navbar">
-            <a href="#" class="active">Home</a>
+            <nav class="nav-menu"><a href="#" class="active">Home</a>
             <a href="#">What is Sociovate?</a>
             <a href="#">Tracks</a>
             <a href="#">Timeline</a>
             <a href="#">Contact Us</a>
-        </nav>
+            </nav>
+          
+            
+        </nav>  <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         <button type="submit" class="button-login">Login</button></header>
-    <h1><b>Join a team</b></h1>
+        <script src="script.js"></script>
+        <h1><b>Join a team</b></h1>
+        <div>
+            <form class="centered" action="reg.html">
+              
+                <div>
+                    <p><label class="custom-label" for="teamname">Enter team name</label><br>
+                        <input type="text" id="teamname" placeholder="" required maxlength="200">
+                    </p>
+                </div>
+                <!-- <div>
+                    <p> <label class="custom-label" for="count">TEAM COUNT</label><br>
+                        <input type="number" id="count" placeholder="For eg. 2,3,4" required max="4" min="2">
+                    </p>
+                <div> -->
+             
     <div>
         <form class="centered" action="reg.html">
           
             
          
             <div>
-                <p> <label class="custom-label" for="Passcode">Enter team passcode</label><br>
-                    <input type="number" id="Passcode" placeholder="XXXX" min="0" max="9999" minlength="4" maxlength="4" >
+                <p> <label class="custom-label" for="Password">Enter team password</label><br>
+                    <input type="text" id="Password"  >
                 </p>
             </div>
 <br>
@@ -55,3 +77,4 @@
 </body>
 
 </html>
+
