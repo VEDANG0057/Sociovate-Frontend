@@ -17,46 +17,45 @@ img {
   position: absolute;
   border-radius: 1rem;
   font-family: "clash display";
-  font-size: 1.5rem;
+  font-size: 2rem;
   box-shadow: -0.5rem 0.5rem #044728;
-  padding: 0.75rem 1rem ;
+  padding: 1rem 1.25rem;
   top: 0;
 }
 
 #b1 {
-  top: 96.85vh;
-  left: 24.31vw;
+  top: 28vh;
+  left: 28vw;
 }
 #b2 {
-  top: 82.60vh;
-  left: 43.06vw;
+  top: 69vh;
+  left: 43vw;
 }
 #b3 {
-  top: 68.52vh;
-  left: 24.31vw;
+  top: 109vh;
+  left: 23vw;
 }
 #b4 {
-  top: 53.42vh;
-  left: 52.08vw;
+  top: 154vh;
+  left: 50vw;
 }
 #b5 {
-  top: 36.78vh;
-  left: 46.53vw;
+  top: 204vh;
+  left: 45vw;
 }
 #b6 {
-  top: 26.22vh;
-  left: 14.58vw;
+  top: 235vh;
+  left: 14vw;
 }
 #b7 {
-  top: 13.61vh;
-  left: 46.53vw;
+  top: 274vh;
+  left: 46vw;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .box {
     font-size: 0.5rem;
     box-shadow: -0.25rem 0.25rem #044728;
-    padding: 0.25rem 0.5rem ;
+    padding: 0.25rem 0.5rem;
   }
 }
-
