@@ -1,0 +1,132 @@
+body {
+
+    background-color: antiquewhite;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button-wrapper {
+    margin: 0 10px;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    margin: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #010304;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button::before {
+    content: '';
+    width: 60px; /* Adjust circle diameter as needed */
+    height: 60px; /* Adjust circle diameter as needed */
+    border-radius: 50%; /* Circular shape */
+    background-color: #ffffff; /* White color for the circle */
+    border: 2px solid #000000; /* Black border */
+    display: flex;
+    justify-content: center; /* Center align icon horizontally */
+    align-items: center; /* Center align icon vertically */
+    box-shadow: -4px 1px 6px rgb(1, 158, 255);
+}
+
+.button.create-team-button::before {
+    content: '+';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; /* Adjust icon size as needed */
+    color: #0f0a0a; /* White color for the icon */
+    margin-bottom: 10px; /* Spacing between the icon and text */
+    border-width: 1px;
+
+}
+
+.button.join-team-button::before {
+    content: '\2192'; /* Unicode for right arrow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; /* Adjust icon size as needed */
+    color: #0f0a0a; /* White color for the icon */
+    margin-bottom: 10px; /* Spacing between the icon and text */
+    border-width: 1px;
+
+}
+
+#loginBtn {
+    font-family: 'Orbitron', sans-serif;
+    width: 90px;
+    height: 53px;
+    margin-left: 10px;
+    background-color: #ED402D;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: opacity 0.15s, box-shadow 0.2s;
+}
+
+.dashboard-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.user-info {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+
+@media (max-width: 768px) {
+    .button {
+        width: 150px;
+        height: 150px;
+        margin: 20px 10px;
+    }
+
+    .button::before {
+        width: 50px; /* Adjust circle diameter as needed */
+        height: 50px; /* Adjust circle diameter as needed */
+    }
+
+    .button.create-team-button::before {
+        font-size: 20px; /* Adjust icon size as needed */
+    }
+
+    .button.join-team-button::before {
+        font-size: 20px; /* Adjust icon size as needed */
+    }
+}
+
+@media (max-width: 576px) {
+    .button-container {
+        flex-direction: column;
+    }
+}
