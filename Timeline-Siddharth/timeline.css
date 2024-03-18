@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #122315;
+}
+img {
+  width: 98.9vw;
+  position: relative;
+}
+
+.box {
+  background-color: #f3ede4;
+  position: absolute;
+  border-radius: 1rem;
+  font-family: "clash display";
+  font-size: 2rem;
+  box-shadow: -0.5rem 0.5rem #044728;
+  padding: 1rem 1.25rem;
+  top: 0;
+}
+
+#b1 {
+  top: 28vh;
+  left: 28vw;
+}
+#b2 {
+  top: 69vh;
+  left: 43vw;
+}
+#b3 {
+  top: 109vh;
+  left: 23vw;
+}
+#b4 {
+  top: 154vh;
+  left: 50vw;
+}
+#b5 {
+  top: 204vh;
+  left: 45vw;
+}
+#b6 {
+  top: 235vh;
+  left: 14vw;
+}
+#b7 {
+  top: 274vh;
+  left: 46vw;
+}
+
+@media (max-width: 768px) {
+  .box {
+    font-size: 0.5rem;
+    box-shadow: -0.25rem 0.25rem #044728;
+    padding: 0.25rem 0.5rem;
+  }
+}
