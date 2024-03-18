@@ -92,6 +92,69 @@ img {
   }
 }
 
+@media (max-width: 1024px) {
+  #b1 {
+    top: 9vh;
+    left: 28vw;
+  }
+  #b2 {
+    top: 22vh;
+    left: 43vw;
+  }
+  #b3 {
+    top: 34vh;
+    left: 24vw;
+  }
+  #b4 {
+    top: 49vh;
+    left: 51vw;
+  }
+  #b5 {
+    top: 65vh;
+    left: 46vw;
+  }
+  #b6 {
+    top: 75vh;
+    left: 15vw;
+  }
+  #b7 {
+    top: 87vh;
+    left: 46vw;
+  }
+}
+
+@media (max-width: 426px) {
+  #b1 {
+    top: 9vh;
+    left: 28vw;
+  }
+  #b2 {
+    top: 22vh;
+    left: 43vw;
+  }
+  #b3 {
+    top: 34vh;
+    left: 24vw;
+  }
+  #b4 {
+    top: 49vh;
+    left: 51vw;
+  }
+  #b5 {
+    top: 65vh;
+    left: 46vw;
+  }
+  #b6 {
+    top: 75vh;
+    left: 15vw;
+  }
+  #b7 {
+    top: 87vh;
+    left: 46vw;
+  }
+}
+
+
 @media (max-width: 320px) {
   #b1 {
     top: 6vh;
