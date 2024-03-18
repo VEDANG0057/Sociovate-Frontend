@@ -59,3 +59,65 @@ img {
     padding: 0.25rem 0.5rem;
   }
 }
+
+@media (max-width: 1440px) {
+  #b1 {
+    top: 28vh;
+    left: 28vw;
+  }
+  #b2 {
+    top: 74vh;
+    left: 42vw;
+  }
+  #b3 {
+    top: 118vh;
+    left: 22vw;
+  }
+  #b4 {
+    top: 164vh;
+    left: 49vw;
+  }
+  #b5 {
+    top: 218vh;
+    left: 45vw;
+  }
+  #b6 {
+    top: 252vh;
+    left: 13vw;
+  }
+  #b7 {
+    top: 293vh;
+    left: 45vw;
+  }
+}
+
+@media (max-width: 320px) {
+  #b1 {
+    top: 6vh;
+    left: 28vw;
+  }
+  #b2 {
+    top: 16vh;
+    left: 43vw;
+  }
+  #b3 {
+    top: 25vh;
+    left: 17vw;
+  }
+  #b4 {
+    top: 36vh;
+    left: 44vw;
+  }
+  #b5 {
+    top: 48vh;
+    left: 40vw;
+  }
+  #b6 {
+    top: 56vh;
+    left: 8vw;
+  }
+  #b7 {
+    top: 65vh;
+    left: 46vw;
+  }
+}
